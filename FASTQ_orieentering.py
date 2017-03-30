@@ -1,10 +1,6 @@
 import sys
 import gzip
 
-line = 0
-orientation=1
-
-
 read_pair=[]
 for line in gzip.open(sys.argv[1]):
 	read_pair.append( line.strip() )
